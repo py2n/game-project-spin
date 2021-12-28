@@ -1,0 +1,16 @@
+byte n=0;
+active proctype P(){
+
+    byte temp =0;
+    temp = n+1
+    n = temp;
+    printf("process P %d \n",n)
+}
+
+active proctype Q(){
+
+    byte temp =0;
+    temp = n+1
+    n = temp;
+    printf("process  Q %d \n",n)
+}
